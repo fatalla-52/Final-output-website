@@ -4,27 +4,23 @@ body {
     padding: 0;
 }
 
-/* CUSTOM NAVBAR */
 .custom-navbar {
-    background-color: #fff0f5; /* light pink */
+    background-color: #fff0f5;
 }
 
-/* SECTION BACKGROUND */
+
 .custom-bg-color {
-    background-color: #ffe6f0; /* soft milk tea pink */
+    background-color: #ffe6f0; 
 }
 
-/* SECTION TITLES */
 h1, h2 {
-    color: #8b4513; /* milk tea brown */
+    color: #8b4513; 
 }
 
-/* PARAGRAPH TEXT */
 p {
     color: #333;
 }
 
-/* BUTTON STYLING */
 .btn-danger {
     background-color: #d63384;
     border: none;
@@ -43,7 +39,6 @@ p {
     background-color: #6f3610;
 }
 
-/* CUSTOM SEND BUTTON */
 .custom-send-btn {
     background-color: #d63384;
     color: white;
@@ -54,7 +49,6 @@ p {
     background-color: #b02a6f;
 }
 
-/* FORM INPUT STYLE */
 .custom-input {
     border: 2px solid #ffc0cb;
 }
@@ -64,26 +58,22 @@ p {
     box-shadow: none;
 }
 
-/* LIST STYLE */
 ul li {
     margin-bottom: 8px;
     color: #5a3e2b;
 }
 
-/* CAROUSEL IMAGE STYLE */
 .carousel img {
-    height: 400px;
+    height: 200px;
     object-fit: cover;
     border-radius: 15px;
 }
 
-/* SECTION SPACING */
 section {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-/* RESPONSIVE IMAGE */
 img {
     max-width: 100%;
     height: auto;
