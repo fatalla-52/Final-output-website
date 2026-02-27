@@ -1,90 +1,79 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fff8f2;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* NAVBAR STYLE */
+/* CUSTOM NAVBAR */
 .custom-navbar {
-    background-color: #f8d7da;
-}
-
-.custom-navbar .navbar-toggler {
-    border: none;
-}
-
-.custom-navbar .navbar-toggler-icon {
-    filter: invert(1);
+    background-color: #fff0f5; /* light pink */
 }
 
 /* SECTION BACKGROUND */
 .custom-bg-color {
-    background-color: #fff3e6;
+    background-color: #ffe6f0; /* soft milk tea pink */
 }
 
-/* HEADINGS */
+/* SECTION TITLES */
 h1, h2 {
-    color: #6b3e26;
+    color: #8b4513; /* milk tea brown */
 }
 
-/* PARAGRAPH STYLE */
+/* PARAGRAPH TEXT */
 p {
-    color: #4e342e;
+    color: #333;
 }
 
-/* BUTTONS */
+/* BUTTON STYLING */
 .btn-danger {
-    background-color: #c94f4f;
+    background-color: #d63384;
     border: none;
 }
 
 .btn-danger:hover {
-    background-color: #a63d3d;
+    background-color: #b02a6f;
 }
 
 .btn-success {
-    background-color: #5c8d89;
+    background-color: #8b4513;
     border: none;
 }
 
 .btn-success:hover {
-    background-color: #4a7370;
+    background-color: #6f3610;
 }
 
 /* CUSTOM SEND BUTTON */
 .custom-send-btn {
-    background-color: #6b3e26;
+    background-color: #d63384;
     color: white;
     border: none;
-    transition: 0.3s ease;
 }
 
 .custom-send-btn:hover {
-    background-color: #4e2a1b;
-    color: #fff;
+    background-color: #b02a6f;
 }
 
-/* INPUT FIELDS */
+/* FORM INPUT STYLE */
 .custom-input {
-    border: 2px solid #f8d7da;
-    background-color: #fff;
-    transition: 0.3s ease;
+    border: 2px solid #ffc0cb;
 }
 
 .custom-input:focus {
-    border-color: #6b3e26;
-    box-shadow: 0 0 5px rgba(107, 62, 38, 0.5);
+    border-color: #d63384;
+    box-shadow: none;
 }
 
 /* LIST STYLE */
 ul li {
     margin-bottom: 8px;
-    color: #4e342e;
+    color: #5a3e2b;
 }
 
-/* IMAGE STYLE */
-img {
+/* CAROUSEL IMAGE STYLE */
+.carousel img {
+    height: 400px;
+    object-fit: cover;
     border-radius: 15px;
 }
 
@@ -94,12 +83,8 @@ section {
     padding-bottom: 60px;
 }
 
-/* BORDER TOP LINE */
-.border-top {
-    border-top: 3px solid #f8d7da !important;
-}
-
-/* CONTACT SECTION TEXT */
-#contact p {
-    font-size: 15px;
+/* RESPONSIVE IMAGE */
+img {
+    max-width: 100%;
+    height: auto;
 }
