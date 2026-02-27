@@ -68,6 +68,21 @@ ul li {
     object-fit: cover;
     border-radius: 15px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.equipment-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.equipment-container img {
+  width: 200px;   /* you can adjust this */
+}
 
 section {
     padding-top: 60px;
