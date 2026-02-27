@@ -1,77 +1,105 @@
 body {
-    background-color: #000; /* Black background for the overall page */
-    color: #333; /* Default text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8f2;
+    margin: 0;
+    padding: 0;
 }
 
-.custom-bg-color {
-    background-color: #d4c2a4; /* Light brown background as in the image */
-    margin-bottom: 20px; /* Space between sections */
-    position: relative;
-}
-
+/* NAVBAR STYLE */
 .custom-navbar {
-    background-color: #d4c2a4 !important; /* Ensure navbar also matches the section background */
-    border-bottom: 2px solid #333; /* Separator for the navbar */
+    background-color: #f8d7da;
 }
 
 .custom-navbar .navbar-toggler {
-    border-color: rgba(0,0,0,.1);
+    border: none;
 }
 
 .custom-navbar .navbar-toggler-icon {
-    background-image: none; /* Remove default icon */
-    position: relative;
-    width: 1.5em; /* Adjust size as needed */
-    height: 1.5em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 0.25em 0;
+    filter: invert(1);
 }
 
-.navbar-toggler-icon::before,
-.navbar-toggler-icon::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 3px; /* Thickness of the lines */
-    background-color: #333; /* Color of the lines */
+/* SECTION BACKGROUND */
+.custom-bg-color {
+    background-color: #fff3e6;
 }
 
-.navbar-toggler-icon::before {
-    margin-bottom: 5px; /* Space between lines */
-}
-
-
+/* HEADINGS */
 h1, h2 {
-    color: #333;
+    color: #6b3e26;
 }
 
-p, li {
-    color: #333;
+/* PARAGRAPH STYLE */
+p {
+    color: #4e342e;
 }
 
+/* BUTTONS */
 .btn-danger {
-    background-color: #dc3545; /* Red color */
-    border-color: #dc3545;
-    font-weight: bold;
+    background-color: #c94f4f;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #a63d3d;
 }
 
 .btn-success {
-    background-color: #28a745; /* Green color */
-    border-color: #28a745;
-    font-weight: bold;
+    background-color: #5c8d89;
+    border: none;
 }
 
-.custom-input {
-    background-color: #f8f9fa; /* Light background for input fields */
-    border: 1px solid #ced4da;
-    color: #495057;
+.btn-success:hover {
+    background-color: #4a7370;
 }
 
+/* CUSTOM SEND BUTTON */
 .custom-send-btn {
-    background-color: #007bff; /* Blue color for send button */
-    border-color: #007bff;
+    background-color: #6b3e26;
     color: white;
-    font-weight: bold;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.custom-send-btn:hover {
+    background-color: #4e2a1b;
+    color: #fff;
+}
+
+/* INPUT FIELDS */
+.custom-input {
+    border: 2px solid #f8d7da;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+
+.custom-input:focus {
+    border-color: #6b3e26;
+    box-shadow: 0 0 5px rgba(107, 62, 38, 0.5);
+}
+
+/* LIST STYLE */
+ul li {
+    margin-bottom: 8px;
+    color: #4e342e;
+}
+
+/* IMAGE STYLE */
+img {
+    border-radius: 15px;
+}
+
+/* SECTION SPACING */
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* BORDER TOP LINE */
+.border-top {
+    border-top: 3px solid #f8d7da !important;
+}
+
+/* CONTACT SECTION TEXT */
+#contact p {
+    font-size: 15px;
 }
