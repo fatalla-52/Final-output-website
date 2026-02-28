@@ -64,7 +64,7 @@ ul li {
 }
 
 .carousel img {
-    height: 400px;
+    height: 50px;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -73,10 +73,6 @@ ul li {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-}
-
-.equipment-container img {
-  width: 90px;   
 }
 
 section {
